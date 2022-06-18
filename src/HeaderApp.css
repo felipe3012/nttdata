@@ -1,0 +1,13 @@
+h1 {
+    font-weight: bold;
+    margin: 0;
+}
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header__image {
+    width: 8em;
+}

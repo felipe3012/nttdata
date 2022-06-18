@@ -1,0 +1,16 @@
+.Pagination__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.Pagination__content--inputSelect {
+    width:  250px !important;
+}
+
+.page-link {
+    text-decoration: none !important;
+    color: var(--color-7) !important;
+
+}
