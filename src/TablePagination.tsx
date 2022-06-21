@@ -1,17 +1,8 @@
 import './tablePagination.css';
 
-function Pagination() {
+function TablePagination() {
     return (     
         <div className='Pagination__content'>
-            <div className='input-group input-group-sm mb-3 Pagination__content--inputSelect'>
-                <span className='input-group-text' id='inputGroup-sizing-sm'>Mostrar</span>                    
-                <select className="form-select form-select-sm" defaultValue="">
-                    <option value="1">10</option>
-                    <option value="2">20</option>
-                    <option value="3">50</option>
-                </select>
-                <span className='input-group-text' id='inputGroup-sizing-sm'>Elementos</span>
-            </div>
             <ul className='pagination pagination-sm'>             
                 <li className='page-item'><a className='page-link' href='#'>Anterior</a></li>  
                 <li className='page-item'><a className='page-link' href='#'>1</a></li>
@@ -24,4 +15,4 @@ function Pagination() {
     );
 }
 
-export { Pagination };
+export { TablePagination };

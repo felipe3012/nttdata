@@ -1,0 +1,61 @@
+.ClanItem {
+  width: auto;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}  
+.ClanItem__image {
+  width: 90px;
+}
+.ClanItem__copa {
+  margin: 10px;
+  width: 150px;
+  border-radius: 15px;
+  background: rgb(238,213,152);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(238,213,152,1) 100%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ClanItem__copa p {
+  color: #FFF;
+  font-size: 28px;
+  margin-top: 10%;
+}
+.ClanItem__copa__img {
+  width: 50px;
+}
+.ClanItem__total {
+  display: flex;
+}
+.ClanItem__text p {
+  margin: 0;
+}
+@media (max-width: 1280px) {
+  .ClanItem__total{
+    display: flex;
+  }
+  .ClanItem__image {
+    width: 50px;
+    height: 50px;
+    margin-top: 12%;
+  }
+  .ClanItem__copa p {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 5%;
+  }
+  .ClanItem__copa__img {
+    width: 40px;
+  }
+  .ClanItem__text p {
+    font-size: var(--sm);
+  }
+}
+
